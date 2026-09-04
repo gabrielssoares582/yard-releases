@@ -4,13 +4,14 @@ O Yard é um aplicativo desktop para macOS, Windows e Linux.
 
 ## Baixar
 
-Use sempre a [versão mais recente](https://github.com/gabrielssoares582/befast-yard-releases/releases/latest).
+Use sempre a [versão mais recente](https://github.com/gabrielssoares582/yard-releases/releases/latest).
 
 - **macOS Apple Silicon:** arquivo `mac-arm64.dmg`
 - **macOS Intel:** arquivo `mac-x64.dmg`
 - **Windows comum:** instalador `win-x64.exe`
 - **Windows ARM:** instalador `win-arm64.exe`
-- **Linux:** arquivo `linux-x64.AppImage` ou `linux-arm64.AppImage`
+- **Linux Intel/AMD:** arquivo `linux-x86_64.AppImage`
+- **Linux ARM:** arquivo `linux-arm64.AppImage`
 
 A versão 0.34.0 instala o sistema de atualizações. Depois dela, o próprio Yard avisa quando houver uma versão nova.
 
