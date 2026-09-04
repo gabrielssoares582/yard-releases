@@ -1,20 +1,72 @@
-# Yard — downloads oficiais
+# Yard
 
-O Yard é um aplicativo desktop para macOS, Windows e Linux.
+## Baixe o Yard para o seu computador
 
-## Baixar
+> **Clique no botão do seu sistema.** Você não precisa escolher arquivos técnicos dentro da release.
 
-Use sempre a [versão mais recente](https://github.com/gabrielssoares582/yard-releases/releases/latest).
+---
 
-- **macOS Apple Silicon:** arquivo `mac-arm64.dmg`
-- **macOS Intel:** arquivo `mac-x64.dmg`
-- **Windows comum:** instalador `win-x64.exe`
-- **Windows ARM:** instalador `win-arm64.exe`
-- **Linux Intel/AMD:** arquivo `linux-x86_64.AppImage`
-- **Linux ARM:** arquivo `linux-arm64.AppImage`
+## 🍎 Tenho um Mac
 
-A versão 0.34.0 instala o sistema de atualizações. Depois dela, o próprio Yard avisa quando houver uma versão nova.
+No canto superior esquerdo, clique em ** → Sobre Este Mac**.
 
-## Segurança
+### Aparece “Chip Apple M1, M2, M3, M4…”
 
-Cada release inclui arquivos `SHA256SUMS` para conferir o download. Enquanto não houver certificados comerciais, macOS e Windows podem mostrar um alerta do sistema na primeira instalação. No macOS, o Yard abre a página oficial para a atualização manual; Windows e Linux AppImage atualizam dentro do app.
+[![Baixar Yard para Mac com chip Apple](https://img.shields.io/badge/BAIXAR_YARD-Mac_com_chip_Apple-111111?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/gabrielssoares582/yard-releases/releases/download/v0.34.0/Yard-0.34.0-mac-arm64.dmg)
+
+### Aparece “Processador Intel”
+
+[![Baixar Yard para Mac Intel](https://img.shields.io/badge/BAIXAR_YARD-Mac_Intel-555555?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/gabrielssoares582/yard-releases/releases/download/v0.34.0/Yard-0.34.0-mac-x64.dmg)
+
+**Para instalar:** abra o `.dmg` baixado e arraste o Yard para a pasta **Aplicativos**.
+
+---
+
+## 🪟 Tenho Windows
+
+### Quase todos os computadores com Windows
+
+[![Baixar Yard para Windows](https://img.shields.io/badge/BAIXAR_YARD-Windows_64_bits-0067b8?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/gabrielssoares582/yard-releases/releases/download/v0.34.0/Yard-Setup-0.34.0-win-x64.exe)
+
+### Somente para computador Windows com processador ARM
+
+[![Baixar Yard para Windows ARM](https://img.shields.io/badge/BAIXAR_YARD-Windows_ARM-357ec7?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/gabrielssoares582/yard-releases/releases/download/v0.34.0/Yard-Setup-0.34.0-win-arm64.exe)
+
+> Se você nunca ouviu falar em “Windows ARM”, use o primeiro botão.
+
+**Para instalar:** abra o `.exe` baixado e siga as etapas na tela.
+
+---
+
+## 🐧 Tenho Linux
+
+Abra o Terminal, digite `uname -m` e pressione Enter.
+
+### O resultado foi `x86_64`
+
+[![Baixar Yard para Linux 64 bits](https://img.shields.io/badge/BAIXAR_YARD-Linux_64_bits-f5a623?style=for-the-badge&logo=linux&logoColor=111111)](https://github.com/gabrielssoares582/yard-releases/releases/download/v0.34.0/Yard-0.34.0-linux-x86_64.AppImage)
+
+### O resultado foi `arm64` ou `aarch64`
+
+[![Baixar Yard para Linux ARM](https://img.shields.io/badge/BAIXAR_YARD-Linux_ARM-f5a623?style=for-the-badge&logo=linux&logoColor=111111)](https://github.com/gabrielssoares582/yard-releases/releases/download/v0.34.0/Yard-0.34.0-linux-arm64.AppImage)
+
+**Para instalar:** permita executar o AppImage nas propriedades do arquivo ou rode `chmod +x Yard-Linux-*.AppImage`.
+
+---
+
+## Se o sistema mostrar um aviso
+
+- **Mac:** tente abrir o Yard uma vez e depois acesse **Ajustes do Sistema → Privacidade e Segurança → Abrir Mesmo Assim**.
+- **Windows:** clique em **Mais informações → Executar assim mesmo** no SmartScreen.
+
+Esses avisos podem aparecer porque os instaladores ainda não possuem certificados comerciais Apple e Microsoft. Os arquivos são gerados pelo [workflow oficial do Yard](https://github.com/gabrielssoares582/yard/actions) e publicados nesta página.
+
+## Atualizações futuras
+
+A versão `0.34.0` instalou o sistema de atualizações. Depois dela, o próprio Yard avisa quando houver uma versão nova. Windows e Linux AppImage atualizam dentro do app; no Mac, o aviso abre esta página enquanto não houver assinatura Apple.
+
+## Arquivos técnicos
+
+Você pode ignorar arquivos com nomes como `latest.yml`, `.blockmap` e `SHA256SUMS`: eles existem para atualização automática e conferência técnica.
+
+[Conferir os códigos SHA-256 publicados](https://github.com/gabrielssoares582/yard-releases/releases/tag/v0.34.0)
