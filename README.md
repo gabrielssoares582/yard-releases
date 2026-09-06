@@ -26,11 +26,11 @@ No canto superior esquerdo, clique em ** → Sobre Este Mac**.
 
 ### Quase todos os computadores com Windows
 
-[![Baixar Yard para Windows](https://img.shields.io/badge/BAIXAR_YARD-Windows_64_bits-0067b8?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/gabrielssoares582/yard-releases/releases/latest/download/Yard-Windows-x64.exe)
+[![Baixar Yard para Windows](https://img.shields.io/badge/BAIXAR_YARD-Windows_64_bits-0067b8?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/gabrielssoares582/yard-releases/releases/download/v0.35.2/Yard-Windows-x64.exe)
 
 ### Somente para computador Windows com processador ARM
 
-[![Baixar Yard para Windows ARM](https://img.shields.io/badge/BAIXAR_YARD-Windows_ARM-357ec7?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/gabrielssoares582/yard-releases/releases/latest/download/Yard-Windows-ARM64.exe)
+[![Baixar Yard para Windows ARM](https://img.shields.io/badge/BAIXAR_YARD-Windows_ARM-357ec7?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/gabrielssoares582/yard-releases/releases/download/v0.35.2/Yard-Windows-ARM64.exe)
 
 > Se você nunca ouviu falar em “Windows ARM”, use o primeiro botão.
 
